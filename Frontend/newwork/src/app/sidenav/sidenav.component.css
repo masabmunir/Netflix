@@ -1,0 +1,52 @@
+
+img{
+   height: 65px;
+    width: 141px;
+    margin: 0.5rem;
+}
+ .mat-icon{
+    vertical-align: center;
+    margin-right: 1rem;
+ }
+
+ .mat-divider{
+    border-top-width: 2px;
+    border-color: white;
+ }
+
+ 
+ 
+ :host::ng-deep mat-list-item-contant{
+    border-radius: 5px;
+    margin: 0 8px;
+    background: #2c3344 !important;
+}
+
+ .mat-list-item{
+    color:white !important;
+    font-size: 0.8rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+     
+ }
+
+ :host ::ng-deep mat-list-item-contant{
+    background: #2c3344 !important;
+    
+ }
+ .list-item-active{
+  color:#2c3344 !important;
+  
+  /* color:#2c3344 !important; */
+ }
+
+ .mat-subheader{
+    color:#818cf8;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+ }
+
+ .mat-list-item{
+    color: white !important;
+ }

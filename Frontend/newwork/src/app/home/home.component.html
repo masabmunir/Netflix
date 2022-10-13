@@ -1,0 +1,37 @@
+<div class="card main-card mb-3">
+    <div class="card-header">
+      <b>List of All Employees</b>&nbsp;<a class="add-btn" routerLink="../adduser" class="btn btn-success button">Add User </a>
+
+    </div>
+    <div class="table-responsive">
+
+      <br>
+      <table class="table table-striped" id="employeedataTable">
+        <thead>   
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Role </th>
+            <th scope="col">Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let emp of empData; index as i">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{emp.name}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.role}}</td>
+            <td>{{emp.contact}}</td>
+
+            <td>
+                <a routerLink="../update/{{emp._id}}" class="btn btn-success btn-sm" ><i
+                    class="fa fa-pencil fa-fw"></i>Edit</a> &nbsp;
+                <a  class="btn btn-danger btn-sm" (click)="delUser(emp._id)"><i
+                    class="fa fa-trash fa-fw"></i>Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
