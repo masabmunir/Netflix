@@ -1,8 +1,7 @@
-mat-toolbar{
-    position: sticky;
-    top:0;
-    z-index: 100;
-    background: white;
+.main {
+    display: flex;
+    align-items: center;
+    background: #0d8ea1;
 }
 
 ul,li{
@@ -13,6 +12,7 @@ ul,li{
 
 .menu{
     display: flex;
+    width: max-content;
 }
 
 button{
@@ -48,6 +48,30 @@ button{
 
 .form-outline{
     border-radius: 5px;
-    width: 30%;
-    margin-left: 8rem;
+    width: 20%;
+   
 } 
+
+
+.my-content{
+    display: flex;
+    align-content: center;
+    flex-basis: 95%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+.from-control{
+    margin-left: -29rem;
+}
+
+.logout_section {
+    display: flex; 
+    align-items: center;
+}
+
+.mat-menu-trigger{
+    font-size: 1rem;
+}

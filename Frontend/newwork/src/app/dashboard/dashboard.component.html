@@ -1,6 +1,6 @@
 <!--- Modal Code Start -->
 
-<button style="margin: 20px; padding: 8px" type="button" class="btn btn-success" (click)="openPopup()">Add
+<button style="margin: 20px; padding: 8px" type="button" class="btn same-btn" (click)="openPopup()">Add
     Slider</button>
 <form [formGroup]="addImage" (ngSubmit)="isUpdate ? updateData() : saveData()">
     <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle}">
@@ -44,12 +44,12 @@
 
 <div class="card main-card mb-3">
     <div class="card-header">
-
+      <h3 class="text-center"> Slider Content </h3>
     </div>
     <div class="table-responsive">
 
         <br>
-        <table class="table table-striped" id="employeedataTable">
+        <table class="table">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -67,7 +67,7 @@
                     <td>{{img.imageDesc}}</td>
                     <td><img src="{{img.imageURl}}" alt=""></td>
                     <td>
-                        <a class="btn btn-success btn-sm" (click)="updateView(img)"><i></i>Edit</a> &nbsp;
+                        <a class="btn same-btn btn-sm" (click)="updateView(img)"><i></i>Edit</a> &nbsp;
                         <a class="btn btn-danger btn-sm" (click)="dellUser(img._id)"><i></i>Delete</a>
                     </td>
                 </tr>

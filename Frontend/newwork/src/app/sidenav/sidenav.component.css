@@ -11,14 +11,14 @@ img{
 
  .mat-divider{
     border-top-width: 2px;
-    border-color: white;
+    border-color: black;
  }
 
  
  :host::ng-deep mat-list-item-contant{
     border-radius: 5px;
     margin: 0 8px;
-    background: #2c3344 !important;
+    /* background: #2c3344 !important; */
 }
 
  .mat-list-item{
@@ -30,26 +30,30 @@ img{
 
 
  :host ::ng-deep mat-list-item-contant{
-    background: #2c3344 !important;   
+    /* background: #2c3344 !important;    */
  }
 
  .list-item-active{
-  color:#2c3344 !important;
+  /* color:#2c3344 !important; */
   
  }
 
  .mat-subheader{
-    color:#818cf8;
-    font-size: 0.8rem;
-    font-weight: 100;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 1px;
  }
 
  .mat-list-item{
-    color: white !important;
+    color: black !important;
  }
 
- .button-hover:hover{
+ .button-hover{
+font-size: 1rem;
+ }
+
+ /* .button-hover:hover{
   color:#818cf8;
  }
 
@@ -58,4 +62,4 @@ img{
 
  }
 
- 
+  */
