@@ -111,9 +111,7 @@ const loginUser = async (req, res) => {
     const { email, password } = req.body;
     userdata.findOne({ email: email }, async(err, userdata) => {
         if (userdata) {
-            //const validPassword = await bcrypt.compare(body.password, user.password);
             if (password === userdata.password) {
-                // res.send({ message: "login successfully", userdata: userdata })
                 const token = await userdata.generateAuthToken();
                 console.log("token is " + token);
 
