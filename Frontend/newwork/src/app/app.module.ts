@@ -26,6 +26,7 @@ import { PrevDirective } from './directive/prev.directive';
 import { ToastrModule } from 'ngx-toastr';
 import { EditImageComponent } from './edit-image/edit-image.component';
 import { MoviesComponent } from './movies/movies.component';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { MoviesComponent } from './movies/movies.component';
     MatSliderModule,
     MatSidenavModule,
     MatListModule,
+    MatInputModule,
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,

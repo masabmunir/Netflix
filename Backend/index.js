@@ -13,6 +13,8 @@ const imageRoutes = require('./routes/images.routes');
 // Movies Path
 const movieModal = require('./dataModals/movies.modal');
 const movieRoutes = require('./routes/movies.routes');
+const videoModel = require('./routes/videoroute');
+const songModal = require('./routes/sound.routes');
 
 const port = process.env.port || 8000
 
@@ -33,6 +35,11 @@ app.use('/data',userRoutes);
 app.use('/',imageRoutes);
 
 app.use('/movies',movieRoutes);
+
+app.use('/', videoModel )
+
+app.use('/', songModal);
+
 
 
 app.listen(port,()=>{
