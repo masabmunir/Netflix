@@ -1,6 +1,9 @@
 <mat-nav-list>
+    <button class="menu" mat-icon-button (click)="toggleSidebar()">
+        <mat-icon class="clear">clear</mat-icon>
+      </button>
     <div class="logo py-4">
-        <img src="../.././assets/netflix-logo-.png" />
+        <img src="../.././assets/netflix-logo-png-2573.png" class="Logo-image" />
     </div>
    
     <h2 matSubheader class="mt-2">Dashboard</h2>
@@ -10,13 +13,10 @@
         <mat-icon>home</mat-icon><span class="button-hover">Users</span> 
     </a>
     <a mat-list-item routerLink="dashboard"  routerLinkActive="list-item-active">
-        <mat-icon>dashboard</mat-icon><span class="button-hover">Add Slider</span>
+        <mat-icon>dashboard</mat-icon><span class="button-hover">Slider</span>
     </a>
     <a mat-list-item routerLink="movies" routerLinkActive="list-item-active">
-        <mat-icon>movies</mat-icon><span class="button-hover">Add Movies</span>
+        <mat-icon>movies</mat-icon><span class="button-hover">Movies</span>
     </a>
-    <!-- <a mat-list-item>
-        <mat-icon>edit</mat-icon>Link 2
-    </a> -->
-
+   
 </mat-nav-list>
