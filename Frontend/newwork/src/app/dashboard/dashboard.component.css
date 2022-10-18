@@ -86,3 +86,7 @@
 .form-control{
   flex-basis: 20%;
 }
+
+.table-bordered{
+  text-align: center;
+}
