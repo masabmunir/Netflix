@@ -6,9 +6,9 @@ mat-toolbar{
 }
 
 ul,li{
-    
+
   list-style:none;
-    
+
 }
 
 .menu{
@@ -45,9 +45,12 @@ button{
     color:black;
 }
 
+.SearchBar{
 
-.form-outline{
-    border-radius: 5px;
-    width: 30%;
-    margin-left: 8rem;
-} 
+
+    border: 1px solid #888;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+}
