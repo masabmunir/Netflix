@@ -26,7 +26,12 @@ import { PrevDirective } from './directive/prev.directive';
 import { ToastrModule } from 'ngx-toastr';
 import { EditImageComponent } from './edit-image/edit-image.component';
 import { MoviesComponent } from './movies/movies.component';
+<<<<<<< HEAD
 import {MatInputModule} from '@angular/material/input';
+=======
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
+>>>>>>> 02bcedddd9a21f898ab4e063acfc1f08257e3535
 
 @NgModule({
   declarations: [
@@ -59,6 +64,7 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,
+    Ng2SearchPipeModule,
     MDBBootstrapModule.forRoot(),
     ToastrModule.forRoot(),
 

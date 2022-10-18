@@ -10,6 +10,8 @@ import { UserdataService } from '../sharedservice/userdata.service';
 export class HomeComponent implements OnInit {
   empData: any;
   collection: any = [];
+  searchText:any
+  
   constructor(private router: Router,
     private usernames: UserdataService) {
     this.userData()

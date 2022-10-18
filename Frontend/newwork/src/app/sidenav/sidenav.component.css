@@ -1,19 +1,22 @@
-
-img{
+img {
    height: 65px;
-    width: 141px;
-    margin: 0.5rem;
+   /* margin: 0.5rem; */
+   width: 94%;
 }
- .mat-icon{
-    vertical-align: center;
-    margin-right: 1rem;
- }
 
- .mat-divider{
-    border-top-width: 2px;
-    border-color: white;
- }
+.mat-icon {
+   vertical-align: center;
+   margin-right: 1rem;
+   color:white
+}
 
+.mat-divider {
+   border-top-width: 2px;
+   border-color: white
+}
+
+
+<<<<<<< HEAD
  
  
  :host::ng-deep mat-list-item-contant{
@@ -39,14 +42,60 @@ img{
   
   /* color:#2c3344 !important; */
  }
+=======
+:host::ng-deep mat-list-item-contant {
+   border-radius: 5px;
+   margin: 0 8px;
+   /* background: #2c3344 !important; */
+}
 
- .mat-subheader{
-    color:#818cf8;
-    font-size: 0.8rem;
-    font-weight: 100;
-    letter-spacing: 1px;
- }
+.mat-list-item {
+   color: white !important;
+   font-size: 0.8rem;
+   height: 44px !important;
+   margin-bottom: 4px;
+}
 
+
+:host ::ng-deep mat-list-item-contant {}
+
+.list-item-active {}
+>>>>>>> 02bcedddd9a21f898ab4e063acfc1f08257e3535
+
+.mat-subheader {
+   color: black;
+   font-size: 1rem;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+
+<<<<<<< HEAD
  .mat-list-item{
     color: white !important;
  }
+=======
+.mat-list-item {
+   color: black !important;
+}
+
+.button-hover {
+   font-size: 1rem;
+   color:white
+}
+
+.mt-2{
+color: white;
+font-size: 23px;
+}
+
+.menu{
+   /* margin-left: 13rem; */
+   border: none;
+   background-color: #0d8ea1;
+   
+}
+
+.clear{
+   margin-left: 12rem;
+}
+>>>>>>> 02bcedddd9a21f898ab4e063acfc1f08257e3535

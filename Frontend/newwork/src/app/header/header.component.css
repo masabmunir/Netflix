@@ -1,8 +1,7 @@
-mat-toolbar{
-    position: sticky;
-    top:0;
-    z-index: 100;
-    background: white;
+.main {
+    display: flex;
+    align-items: center;
+    background: #0d8ea1;
 }
 
 ul,li{
@@ -13,6 +12,8 @@ ul,li{
 
 .menu{
     display: flex;
+    width: max-content; 
+    color: white
 }
 
 button{
@@ -29,7 +30,7 @@ button{
 .user-image{
     border-radius: 50%;
     width: 50px;
-    height: 50px;
+    height: 45px;
 }
 
 .user-image-icon{
@@ -48,9 +49,46 @@ button{
 .SearchBar{
 
 
+<<<<<<< HEAD
     border: 1px solid #888;
     background: #f5f5f5;
     box-sizing: border-box;
     border-radius: 50px;
 
 }
+=======
+.form-outline{
+    border-radius: 5px;
+    width: 20%;
+   
+} 
+
+
+.my-content{
+    display: flex;
+    align-content: center;
+    flex-basis: 95%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+.from-control{
+    margin-left: -29rem;
+}
+
+.logout_section {
+    display: flex; 
+    align-items: center;
+}
+
+.mat-menu-trigger{
+    font-size: 1rem;
+    color: white;
+}
+
+.logout_section{
+    color: white;
+}
+>>>>>>> 02bcedddd9a21f898ab4e063acfc1f08257e3535
